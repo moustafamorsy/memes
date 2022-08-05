@@ -1,4 +1,4 @@
-import img from "../../public/images/Troll Face.png"
+import img from "./Troll Face.png"
 
 function Nav() {
 
