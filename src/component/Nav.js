@@ -1,4 +1,4 @@
-
+import img from "../../public/images/Troll Face.png"
 
 function Nav() {
 
@@ -20,7 +20,7 @@ const styles ={
 <nav style={styles}>
 
 <div style={{display: 'flex' ,alignItems: 'center'}} className='logo'>
-    <img style={{height:50,marginRight:10}} src="/images/Troll Face.png" alt="smile head" />
+    <img style={{height:50,marginRight:10}} src={img} alt="smile head" />
     <h1>Meme Generator</h1>
 </div>
 
